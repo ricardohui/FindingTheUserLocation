@@ -12,6 +12,7 @@
 		A7E13DB9224AE7420052B60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E13DB7224AE7420052B60E /* Main.storyboard */; };
 		A7E13DBB224AE7450052B60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7E13DBA224AE7450052B60E /* Assets.xcassets */; };
 		A7E13DBE224AE7450052B60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E13DBC224AE7450052B60E /* LaunchScreen.storyboard */; };
+		A7E13DC7224AE7D50052B60E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E13DC6224AE7D50052B60E /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A7E13DBA224AE7450052B60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7E13DBD224AE7450052B60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7E13DBF224AE7450052B60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E13DC6224AE7D50052B60E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E13DC7224AE7D50052B60E /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				A7E13DB2224AE7420052B60E /* FindingTheUserLocation */,
 				A7E13DB1224AE7420052B60E /* Products */,
+				A7E13DC5224AE7D50052B60E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				A7E13DBF224AE7450052B60E /* Info.plist */,
 			);
 			path = FindingTheUserLocation;
+			sourceTree = "<group>";
+		};
+		A7E13DC5224AE7D50052B60E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7E13DC6224AE7D50052B60E /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
